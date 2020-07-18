@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>weather.</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>weather.</h1>
+        </header>
+
+        <div id="input">
+            <input id="weather-input" type="text" placeholder="enter city" required>
+            <select id="degree">
+                <option value="imperial">Farhenheit</option>
+                <option value="metric">Celicus</option>
+            </select>
+            <button id="submit">submit</button>
+        </div>
+
+        <div id="weather-info">
+            <p id="city"></p>
+            <p id="weather"></p>
+            <img id="weather-img">
+            <p id="temp"></p>
+            <p id="feels-like"></p>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
